@@ -1,0 +1,18 @@
+#landing {
+  background: url(/src/assets/images/bg.png) no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+.center {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.photo {
+  height: 20vh;
+  width: 20vh;
+}
