@@ -18,9 +18,9 @@ function Nav(props) {
     <header className="flex-row px-0">
       <nav class="nav-wrapper">
         <a data-testid="link" href="/">
-          <span role="img" aria-label="camera">🙏
-            {" "}
-          </span>{" "}
+          <span role="img" aria-label="camera">
+            🙏 &nbsp;
+          </span>
           Zaw Min Maung
         </a>
         <ul id="nav-mobile" className="flex-row right hide-on-med-and-down">

@@ -7,10 +7,10 @@ import ContactForm from "./components/Contact";
 function App() {
   const [categories] = useState([
     {
-      name: "College",
-      description: "Photos of College, Activities, and other projects",
+      name: "Warmly Welcome!",
+      description: "Photos of People, Activities, and other projects",
     },
-    { name: "portraits", description: "Portraits of Activities" },
+    { name: "portraits", description: "Portraits of people" },
     { name: "Research", description: "Research Works" },
     {
       name: "landscape",

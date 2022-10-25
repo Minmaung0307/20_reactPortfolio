@@ -8,7 +8,7 @@ main {
   --secondary: #f3a847;
   --tertiary: #b12704;
   --light: #fafafa;
-  --dark: #332d13;
+  --dark: #02404a;
   --darker: #111111;
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
@@ -149,7 +149,7 @@ li {
 
 nav {
   margin: 0;
-  background-color: #16140a;
+  background-color: #013138;
   padding-left: 20px;
   padding-right: 20px;
 }

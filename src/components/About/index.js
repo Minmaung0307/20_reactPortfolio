@@ -12,10 +12,11 @@ function About() {
       />
       <div className="my-2">
         <p>
-          Padaung (Yan Pa Doung) is a Shan term for the <bold>Kayan Lahwi</bold>{" "}
+          Padaung (Yan Pa Doung) is a Shan term for the <bold>Kayan Lahwi</bold>
           (the group in which women wear the brass neck rings). The Kayan
           residents in Mae Hong Son Province in Northern Thailand refer to
           themselves as Kayan and object to being called Padaung. <br />
+          <br />
           Myanmar: Shan State: 80,000 <br />
           Myanmar: Kayah State: 70,000
           <br />
