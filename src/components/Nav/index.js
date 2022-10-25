@@ -15,22 +15,23 @@ function Nav(props) {
   }, [currentCategory]);
 
   return (
-    <header className="flex-row px-0">
-      <nav class="nav-wrapper">
+    <header>
+      <nav className="flex-row px-1 nav-wrapper">
         <a data-testid="link" href="/">
-          <span role="img" aria-label="camera">
-            🙏 &nbsp;
-          </span>
+          <span role="img" aria-label="thanks">
+            🙏
+          </span>{" "}
           Zaw Min Maung
         </a>
-        <ul id="nav-mobile" className="flex-row right hide-on-med-and-down">
+
+        <ul className="flex-row right hide-on-med-and-down">
           <li className="mx-2">
             <a
               data-testid="about"
               href="#about"
               onClick={() => setContactSelected(false)}
             >
-              About Me
+              About me
             </a>
           </li>
           <li className={`mx-2 ${contactSelected && "navActive"}`}>

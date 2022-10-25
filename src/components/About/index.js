@@ -3,7 +3,7 @@ import coverImage from "../../assets/cover/cover-image.jpg";
 function About() {
   return (
     <section className="my-5">
-      <h1 id="about">Beauty of People</h1>
+      <h1 id="about">Who am I?</h1>
       <img
         src={coverImage}
         className="my-2"
@@ -12,15 +12,15 @@ function About() {
       />
       <div className="my-2">
         <p>
-          Padaung (Yan Pa Doung) is a Shan term for the <bold>Kayan Lahwi</bold>
-          (the group in which women wear the brass neck rings). The Kayan
-          residents in Mae Hong Son Province in Northern Thailand refer to
-          themselves as Kayan and object to being called Padaung. <br />
-          <br />
-          Myanmar: Shan State: 80,000 <br />
-          Myanmar: Kayah State: 70,000
-          <br />
-          Thailand: 600
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+          bibendum turpis sed ex condimentum molestie. Mauris condimentum lectus
+          ut ornare dignissim. Mauris faucibus urna mi, ac feugiat metus aliquam
+          maximus. Proin aliquam justo nec diam vulputate vestibulum. Aenean
+          sollicitudin nulla at nisi ornare, nec suscipit massa eleifend. Morbi
+          tristique justo vel turpis sollicitudin, et tristique velit convallis.
+          In hac habitasse platea dictumst. Phasellus mattis nunc sed orci
+          consequat laoreet. Praesent id nisl nibh. Curabitur imperdiet
+          ultricies mollis. In hac habitasse platea dictumst.
         </p>
       </div>
     </section>

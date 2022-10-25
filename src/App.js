@@ -7,14 +7,15 @@ import ContactForm from "./components/Contact";
 function App() {
   const [categories] = useState([
     {
-      name: "Warmly Welcome!",
-      description: "Photos of People, Activities, and other projects",
+      name: "Portfolio",
+      description:
+        "Photos of grocery stores, food trucks, and other commercial projects",
     },
-    { name: "portraits", description: "Portraits of people" },
-    { name: "Research", description: "Research Works" },
+    { name: "portraits", description: "Portraits of people in my life" },
+    { name: "food", description: "Delicious delicacies" },
     {
       name: "landscape",
-      description: "Compound, Retreats, Consecration, and the beauty of nature",
+      description: "Fields, farmhouses, waterfalls, and the beauty of nature",
     },
   ]);
 
