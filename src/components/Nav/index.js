@@ -17,7 +17,7 @@ function Nav(props) {
   return (
     <header>
       <nav className="flex-row px-1 nav-wrapper">
-        <a data-testid="link" href="/">
+        <a data-testid="link" href="#about">
           <span role="img" aria-label="thanks">
             🙏
           </span>{" "}
@@ -31,7 +31,7 @@ function Nav(props) {
               href="#about"
               onClick={() => setContactSelected(false)}
             >
-              About me
+
             </a>
           </li>
           <li className={`mx-2 ${contactSelected && "navActive"}`}>
