@@ -21,6 +21,7 @@
 
 ## Links
 
-[Github](git@github.com:Minmaung0307/20_reactPortfolio.git)<br/>
+git@github.com:Minmaung0307/20_reactPortfolio.git
+<br/>
 [URL](https://minmaung0307.github.io/20_reactPortfolio/)<br/>
 [Network](http://192.168.1.190:3000)
