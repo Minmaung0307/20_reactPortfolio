@@ -37,7 +37,7 @@ function Nav(props) {
             <span onClick={() => setContactSelected(true)}>Contact</span>
           </li>
 
-          <li className="">
+          <li className="resume">
             <a href={resumepdf} download>
               Resume
             </a>

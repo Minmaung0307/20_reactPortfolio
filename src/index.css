@@ -168,13 +168,21 @@ nav li {
 textarea {
   width: 600px;
   height: 120px;
-  border: 3px solid #cccccc;
-  padding: 5px;
+  border: 1px solid #b3afaf;
+  padding: 10px;
   color: white;
 }
 
 label {
   font-size: 1.2rem;
+}
+
+nav ul a {
+  font-size: 1.2rem;
+}
+
+.contact {
+  height: 100vh;
 }
 
 .container {
