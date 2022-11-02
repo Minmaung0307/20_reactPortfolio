@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { capitalizeFirstLetter } from "../../utils/helpers";
+import resumepdf from "../../assets/resume/resume.pdf";
 
 function Nav(props) {
   const {
@@ -30,14 +31,17 @@ function Nav(props) {
               data-testid="about"
               href="#about"
               onClick={() => setContactSelected(false)}
-            >
-
-            </a>
+            ></a>
           </li>
           <li className={`mx-2 ${contactSelected && "navActive"}`}>
             <span onClick={() => setContactSelected(true)}>Contact</span>
           </li>
 
+          <li className="">
+            <a href={resumepdf} download>
+              Resume
+            </a>
+          </li>
           {categories.map((category) => (
             <li
               className={`mx-1 ${
